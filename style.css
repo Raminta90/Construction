@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+ background-color: orange;
+  
+ 
+}
+
+.container{
+  
+  height: 100vh;
+  background-color: orange;
+  display: flex;
+   flex-direction: row;
+  flex-wrap: wrap;
+    width: 100%;  
+}
+
+
+.first{
+    width: 35%;
+    display: flex;
+    background-color: orange;
+    flex-wrap: wrap;
+    
+  height: 60%;
+}
+
+.second{
+  
+    width: 65%;
+    background-color: orange;
+  height: 60%;
+  color: white;
+}
+
+img{
+  width: 90%;
+  height: 110%;
+  top: 7%;
+  left: 7%;
+  position: relative;
+}
+
+h1{
+   padding-top: 10%;
+  font-size: 50px;
+}
+
+h6{
+  padding-top: 3%;
+  padding-bottom: 3%;
+  
+}
+
+button{
+  background-color: black;
+  color: white;
+  padding: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.card{
+  left: 50%; 
+}
+
+@media (max-width: 480px) {
+  
+     .second{
+  
+  width: 65%;
+  background-color: orange;
+  height: 45%;
+  color: white;
+       
+} 
+  
+  .first{
+    width: 95%;
+    display: flex;
+    background-color: orange;
+    flex-wrap: wrap;
+    height: 60%;
+    
+    }
+
+    img{
+  width: 90%;
+  height: 90%;
+  top: 7%;
+  left: 7%;
+  position: relative;
+
+}
+  .card{
+  left: 0.5%; 
+}
+}
